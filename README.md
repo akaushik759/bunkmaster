@@ -1,37 +1,11 @@
-Welcome to Glitch
-=================
+This is a web tool which helps students calculate the number of classes they can bunk for each subject. 
+Just input the Subject Name, Total Number of Classes of the subject and voila !
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+You get the number of times you can bunk that class further to make it to 65%, 75% or 85%
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+The best part?
+It doesn't have a backend, yet it stores all your subjects such that you don't have to input it everytime.
 
-Find out more [about Glitch](https://glitch.com/about).
+Here's the link - https://bunkmaster.glitch.me
 
-
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+Enjoy Bunk Master!

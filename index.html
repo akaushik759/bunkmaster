@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bunk Master</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-155155679-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-155155679-2");
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h3>
+              Bunk Master
+            </h3>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row" id="subjects"></div>
+      <hr />
+      <br />
+      <br />
+      <div class="row" id="data">
+        <div class="col-md-12">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="sub">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="sub"
+                  placeholder="Subject Name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="tc">Total Classes</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="tc"
+                  placeholder="Total Classes"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mtn">Missed till now</label>
+              <input
+                type="text"
+                class="form-control"
+                id="mtn"
+                placeholder="Missed till now"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <button class="btn btn-primary" id="add-subject">
+            + Add Subject
+          </button>
+        </div>
+        <div class="col-md-9">
+          <button class="btn btn-primary" id="clear-all">
+            Clear All
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    
+    <footer style="margin-top:50%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <p>
+                Made with <a href="https://www.facebook.com/swimzzk" class="fa fa-heart" style="font-size:15px;"></a> by Abhishek Kaushik
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
